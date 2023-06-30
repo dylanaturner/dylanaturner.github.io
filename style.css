@@ -180,7 +180,7 @@ OLD CODE END */
 }
 
 h1{
-  font-family: "Montserrat";
+  font-family:  arial, sans-serif;
   line-height: 1.5;
   font-size: 2.5rem;
   font-weight: 900;
@@ -188,7 +188,7 @@ h1{
 }
 
 h2{
-font-family: "Montserrat";
+font-family:  arial, sans-serif;
 line-height: 1.5;
 font-weight: lighter;
 font-size: 3rem;
@@ -196,26 +196,29 @@ font-size: 3rem;
 }
 
 body{
-  font-family: "Montserrat";
+  font-family:arial, sans-serif;
 
 }
 
 h3{
-  font-family: "Montserrat";
+  font-family:  arial, sans-serif;
   font-weight: lighter;
   font-size: 1.4rem;
   color: white;
 }
 
 p{
-  font-family: "Montserrat";
+  font-family:  arial, sans-serif;
   color: #8f8f8f;
 }
 
 .container-fluid{
   padding: 3% 15% 7%;
-  height: 600px;
-  background-image: url(mkhillart.webp);
+  height: 500px;
+  background-image: url(My_project-1.jpg);
+  background-size: cover;
+  background-blend-mode: lighten;
+  background-color: black;
 }
 
 /* Navigation Bar */
