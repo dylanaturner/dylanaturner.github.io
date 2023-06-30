@@ -215,6 +215,7 @@ p{
 .container-fluid{
   padding: 3% 15% 7%;
   height: 600px;
+  background-image: url(mkhillart.webp);
 }
 
 /* Navigation Bar */
@@ -244,7 +245,7 @@ p{
   margin: 5% 3% 5% 0;
 }
 
-/* Title Image */
+/* Title Image
 
 .title-image{
   border-radius: 10px;
@@ -253,6 +254,7 @@ p{
   position: absolute;
   transform: rotate(deg);
   left: 57%;
+*/
 
 }
 
@@ -260,14 +262,11 @@ p{
 
   #title{
     text-align: center;
-  }
-
-  .title-image{
-    position: static;
-    transform: rotate();
-    width: 20%;
+    background-color: black;
 
   }
+
+
 }
 
 .image{
