@@ -174,55 +174,58 @@ img{
 OLD CODE END */
 
 
-
-#title{
-  background-color: black;
+html *{
+  font-family: 'Literata',serif;
 }
 
-h1{
 
+
+h1{
+  font-family:'Literata', serif;
   line-height: 1.5;
-  font-size: 2.5rem;
-  font-weight: 900;
+  font-size: 4.5rem;
+  font-weight: 300;
   color: white;
 }
 
 h2{
-
+font-family:'Literata', serif;
 line-height: 1.5;
-font-weight: lighter;
+font-weight: 300;
 font-size: 3rem;
+color: white;
 
 }
 
 body{
-
+font-family:'Literata', serif;
 
 }
 
 img{
-
-
-}
+border-radius: 10px;
 
 }
+
 
 h3{
-
+  font-family:'Literata', serif;
   font-weight: lighter;
   font-size: 1.4rem;
   color: white;
 }
 
 p{
-
+  font-family:'Literata', serif;
   color: #8f8f8f;
-  font-size: 200%;
+  font-size: 100%;
+
 }
 p.cta-description{
-
+  font-family:'Literata', serif;
   color: #8f8f8f;
   font-size: 200%;
+  color: white;
 }
 
 
@@ -232,8 +235,12 @@ p.cta-description{
   background-color: black;
 
 
+
 }
 
+html{
+font-family:'Literata', serif;
+}
 .title-container{
 padding-top: 50px;
 
@@ -252,11 +259,12 @@ width: 900px;
   padding:0 0 4.5rem;
   position:relative;
   width: 100%;
+  font-family: 'Literata', serif;
 
 }
 
 .navbar-brand{
-  font-family: "Ubuntu";
+  font-family: 'Literata', serif;
   font-size: 1.5rem;
   font-weight: bold;
 }
