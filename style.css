@@ -180,7 +180,7 @@ OLD CODE END */
 }
 
 h1{
-  font-family:  arial, sans-serif;
+
   line-height: 1.5;
   font-size: 2.5rem;
   font-weight: 900;
@@ -188,7 +188,7 @@ h1{
 }
 
 h2{
-font-family:  arial, sans-serif;
+
 line-height: 1.5;
 font-weight: lighter;
 font-size: 3rem;
@@ -196,35 +196,63 @@ font-size: 3rem;
 }
 
 body{
-  font-family:arial, sans-serif;
+
+
+}
+
+img{
+
+
+}
 
 }
 
 h3{
-  font-family:  arial, sans-serif;
+
   font-weight: lighter;
   font-size: 1.4rem;
   color: white;
 }
 
 p{
-  font-family:  arial, sans-serif;
+
   color: #8f8f8f;
+  font-size: 200%;
+}
+p.cta-description{
+
+  color: #8f8f8f;
+  font-size: 200%;
 }
 
+
 .container-fluid{
-  padding: 3% 15% 7%;
-  height: 500px;
-  background-image: url(My_project-1.jpg);
-  background-size: cover;
-  background-blend-mode: lighten;
+  padding: 2% 2% 2% 2%;
+  height: 600px;
   background-color: black;
+
+
+}
+
+.title-container{
+padding-top: 50px;
+
+
+}
+
+.img-fluid{
+height: 400px;
+width: 900px;
+
 }
 
 /* Navigation Bar */
 
 .navbar{
   padding:0 0 4.5rem;
+  position:relative;
+  width: 100%;
+
 }
 
 .navbar-brand{
@@ -377,15 +405,16 @@ margin-bottom: 1rem;
 /* Call to Action Section */
 
 #cta{
-  text-align: center;
+  text-align: left;
   background-color: white;
-  height: 600px;
+  height: 700px;
   position:relative;
 
 }
 
 .cta-title{
-  padding-top: 200px;
+  padding-left: 10%;
+  padding-top: 10%;
   color: black;
   font-size: 3rem;
 
@@ -394,13 +423,21 @@ margin-bottom: 1rem;
 
 .cta-button{
   margin: 5% 3% 5% 0;
+  float: right;
 }
 
+.cta-description{
+  margin: 3%;
+
+
+}
 
 /* Footer */
 #footer{
+  bottom: 0px;
   text-align: center;
   padding-top: 1%;
+  background-color: black;
 }
 
 .socials{
