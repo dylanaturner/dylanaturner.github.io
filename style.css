@@ -174,16 +174,14 @@ img{
 OLD CODE END */
 
 
-html *{
-  font-family: 'Literata',serif;
-}
+
 
 
 
 h1{
   font-family:'Literata', serif;
   line-height: 1.5;
-  font-size: 4.5rem;
+  font-size: 5rem;
   font-weight: 300;
   color: white;
 }
@@ -202,10 +200,6 @@ font-family:'Literata', serif;
 
 }
 
-img{
-border-radius: 10px;
-
-}
 
 
 h3{
@@ -225,7 +219,7 @@ p.cta-description{
   font-family:'Literata', serif;
   color: #8f8f8f;
   font-size: 200%;
-  color: white;
+
 }
 
 
@@ -247,16 +241,18 @@ padding-top: 50px;
 
 }
 
-.img-fluid{
-height: 400px;
-width: 900px;
+img{
+height: 500px;
+width: 100%;
+
+
 
 }
 
 /* Navigation Bar */
 
 .navbar{
-  padding:0 0 4.5rem;
+  padding:0 0 1.5rem ;
   position:relative;
   width: 100%;
   font-family: 'Literata', serif;
@@ -295,7 +291,7 @@ width: 900px;
   left: 57%;
 */
 
-}
+
 
 @media (max-width:1028px){
 
@@ -424,7 +420,7 @@ margin-bottom: 1rem;
   padding-left: 10%;
   padding-top: 10%;
   color: black;
-  font-size: 3rem;
+  
 
 
 }
@@ -439,6 +435,25 @@ margin-bottom: 1rem;
 
 
 }
+/* Gallery */
+.gallery-title{
+text-align:right;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* Footer */
 #footer{
@@ -446,8 +461,14 @@ margin-bottom: 1rem;
   text-align: center;
   padding-top: 1%;
   background-color: black;
+  color: white;
 }
+.footer-text{
+  padding-bottom: 2%;
 
+
+
+}
 .socials{
-  margin: 1% 1% 2%;
+  margin: 2% 2% 2%;
 }
