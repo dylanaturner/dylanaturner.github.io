@@ -242,8 +242,9 @@ padding-top: 50px;
 }
 
 img{
-height: 500px;
+height: 800px;
 width: 100%;
+
 
 
 
@@ -356,7 +357,7 @@ margin-bottom: 1rem;
 
 #testimonials{
   text-align: center;
-  background-color: #ef8172;
+  background-color: black;
   color: #fff;
 }
 
@@ -365,8 +366,9 @@ margin-bottom: 1rem;
 }
 
 .testimonial-image{
-  border-radius: 100%;
-  width: 10%;
+  border-radius: 3%;
+  width: 60%;
+  height: 30%;
   margin: 20px;
 
 }
@@ -409,7 +411,7 @@ margin-bottom: 1rem;
 /* Call to Action Section */
 
 #cta{
-  text-align: left;
+  text-align: right;
   background-color: white;
   height: 700px;
   position:relative;
@@ -417,16 +419,16 @@ margin-bottom: 1rem;
 }
 
 .cta-title{
-  padding-left: 10%;
-  padding-top: 10%;
+  padding-right: 10%;
+  padding-top: 5%;
   color: black;
-  
+
 
 
 }
 
 .cta-button{
-  margin: 5% 3% 5% 0;
+  margin: 2% 3% 2% 0;
   float: right;
 }
 
@@ -437,7 +439,9 @@ margin-bottom: 1rem;
 }
 /* Gallery */
 .gallery-title{
-text-align:right;
+text-align:left;
+padding-left: 10%;
+padding-top: 5%;
 }
 
 
@@ -460,8 +464,8 @@ text-align:right;
   bottom: 0px;
   text-align: center;
   padding-top: 1%;
-  background-color: black;
-  color: white;
+  background-color: white;
+  color: black;
 }
 .footer-text{
   padding-bottom: 2%;
