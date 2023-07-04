@@ -169,12 +169,13 @@ img{
 
 }
 OLD CODE END */
+
 h1 {
   font-family: 'Quicksand', sans-serif;
   line-height: 1.5;
   font-size: 5rem;
   font-weight: 300;
-  color: black;
+  color: #FFFFFF;
 }
 
 h2 {
@@ -214,12 +215,12 @@ p.cta-description {
 
 .container-fluid {
   padding: 0;
-  height: 600px;
+  height: 680px;
   background-color: black;
 }
 
 .display-1 {
-  margin: 5% 5% 5% 5%;
+  margin: 15% 7% 5% 5%;
   font-size: 8rem;
 }
 
@@ -231,6 +232,7 @@ html {
   font-family: 'Literata', serif;
   max-width: 100%;
   overflow-x: hidden;
+  background-color: black;
 }
 
 .title-container {
@@ -238,7 +240,7 @@ html {
 }
 
 .title-image {
-  height: 550px;
+  height: 500px;
   width: 100%;
   position: relative;
 }
@@ -307,17 +309,14 @@ nav {
   padding: 5%;
 }
 
-/* Testimonial Section */
+/* Gallery Section */
 #gallery {
   text-align: center;
   background-color: Black;
   color: #fdfcfb;
-  height:600px;
+  height:900px;
 }
 
-.carousel-item {
-  padding: 7% 15%;
-}
 
 .testimonial-image {
   border-radius: 3%;
@@ -328,9 +327,9 @@ nav {
 
 /* Story Section */
 #story {
-  text-align: right;
-  background-color: black;
-  height: 650px;
+  text-align: center;
+  background-color: #F5F5F5;
+  height: 900px;
   position: relative;
 
 }
@@ -348,29 +347,28 @@ img {
   color: #fdfcfb;
   opacity: 85%;
 }
-
+h1.about-me{
+  color:black;
+}
 .story-title {
   padding-right: 10%;
-  padding-top: 5%;
-  color: #fdfcfb;
+  padding-top: 0%;
+  color: black;
 }
 
-.story-button {
-  margin: 2% 3% 2% 0;
-  float: right;
-  font-family: 'Quicksand', sans-serif;
-}
 
-.story-description {
-  margin: 3%;
+p.story-description {
+  margin: 10%;
+  font-size: 1.2rem;
 }
 
 /* Gallery */
 .gallery-title {
-  text-align: left;
-  padding-left: 10%;
+  text-align: right;
+  padding-right: 5%;
   padding-top: 5%;
 }
+
 
 /* CTA SECTION */
 #cta {
@@ -386,7 +384,6 @@ button.btn.btn-xl.btn-dark.cta-button {
   width: 50%;
   font-family: 'Quicksand', sans-serif;
 }
-
 /* Footer */
 #footer {
   bottom: 0px;
