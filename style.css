@@ -2754,11 +2754,16 @@ html.no-csstransitions .home-content__main {
 .s-works {
    padding-top: 15rem;
    padding-bottom: 15.6rem;
-   background-color: #f1f1f1;
+   background-color: #0D0A0B;
    position: relative;
+
 }
-
-
+.portfolio-title{
+  color:#FFFFFF;
+}
+p.lead-portfolio{
+  color: #FFFFFF;
+}
 /* -------------------------------------------------------------------
 * ## bricks/masonry - (_site-layout.scss)
 * ------------------------------------------------------------------- */
@@ -3709,11 +3714,11 @@ footer {
 }
 
 footer a, footer a:visited {
-   color: white;;
+   color: black;
 }
 
 footer a:hover, footer a:focus {
-   color: #FFFFFF;
+   color: grey;
 }
 
 .footer-logo {
@@ -3798,7 +3803,6 @@ footer a:hover, footer a:focus {
 .footer-bottom .copyright span:last-child::after {
    display: none;
 }
-
 
 /* -------------------------------------------------------------------
 * ## go to top
