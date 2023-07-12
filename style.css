@@ -1200,7 +1200,7 @@ input[type="submit"]:focus,
 input[type="reset"]:focus,
 input[type="button"]:focus {
    background-color: #b8b8b8;
-   border-color: #b8b8b8;
+   border-color: #b8b8b8;]
    color: #000000;
    outline: 0;
 }
@@ -2600,18 +2600,22 @@ html.no-csstransitions .home-content__main {
    padding-bottom: 9rem;
    background-color: #FFFFFF;
    position: relative;
+   text-indent: 40px;
 }
 
 .about-content {
    margin-bottom: 3rem;
+   text-indent: 40px;
 }
 
 .about-content .left {
    padding-right: 40px;
+   text-indent: 40px;
 }
 
 .about-content .right {
    padding-left: 40px;
+   text-indent:40px;
 }
 
 
@@ -3283,6 +3287,7 @@ p.lead-portfolio{
    background-color: #FFFFFF;
    position: relative;
    z-index: 1;
+   padding-left: 43%;
 }
 
 .cta__content {
@@ -3296,9 +3301,17 @@ p.lead-portfolio{
 
 .cta__content span {
    color: #191A3F;
+
+
 }
-
-
+.cta__action1{
+  
+}
+.cta__action2{
+  margin:5%;
+  padding-top: 10%;
+  display: inline-block;
+}
 
 /* ===================================================================
 * # stats - (_site-layout.scss)
@@ -3445,10 +3458,10 @@ p.lead-portfolio{
 
 .s-contact {
    background-color: #151515;
-   background-image: url("../images/contact-bg.jpg");
+   background-image: url("/Users/dylanturner/Documents/Web Development/Makenzie-Hill/Myproject-1(1).jpg");
    background-repeat: no-repeat;
    background-position: center, center;
-   padding-top: 13.2rem;
+   padding-top: 11.2rem;
    padding-bottom: 12rem;
    color: rgba(255, 255, 255, 0.5);
    position: relative;
@@ -3523,6 +3536,8 @@ p.lead-portfolio{
 
 .contact__infos {
    font-size: 1.5rem;
+   text-align: center;
+   display: inline-block;
 }
 
 .contact__form {
